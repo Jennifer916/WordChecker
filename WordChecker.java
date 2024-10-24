@@ -38,15 +38,12 @@ public class WordChecker {
 
     public ArrayList<String> createList (String target) {
         ArrayList<String> list=new ArrayList<String>();
-
-        for(String s : wordList){
+        for(String s : wordList){    
             if (s.indexOf(target)==0) {
-                return list;
-            }
+            list.add(s.substring(target.length()));
         }
+    }
         return list;
 
     }
-    
-    
-}
+    }

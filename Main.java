@@ -22,7 +22,12 @@ public static void main(String[] args)
         words.add("tools"); 
         WordChecker h = new WordChecker(alist);
         System.out.println(h.isWordChain());
+
+        WordChecker b=new WordChecker();
+        ArrayList<String> b = new ArrayList<String>("catch","bobcat","catchcat","cat","at");
+
     }
      
+
 }
 
