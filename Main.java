@@ -16,18 +16,13 @@ public static void main(String[] args)
        System.out.println(x.isWordChain());
 
        ArrayList<String> alist = new ArrayList<String>();
-       words.add("to");
-        words.add("too");
-        words.add("stool");
-        words.add("tools"); 
+       alist.add("to");
+       alist.add("too");
+       alist.add("stool");
+       alist.add("tools");
         WordChecker h = new WordChecker(alist);
         System.out.println(h.isWordChain());
 
-        WordChecker b=new WordChecker();
-        ArrayList<String> b = new ArrayList<String>("catch","bobcat","catchcat","cat","at");
-
     }
-     
-
 }
 
